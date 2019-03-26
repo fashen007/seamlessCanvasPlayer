@@ -54,7 +54,7 @@ export default {
     },
     width: {
       type: Number,
-      default: 270
+      default: 400
     },
     height: {
       type: Number,
@@ -115,6 +115,12 @@ export default {
     }
   },
   watch: {
+    height (val) {
+      this.canvasHeight = val
+    },
+    width (val) {
+      this.canvasWidth = val
+    },
     autoPlay: {
       immediate: true,
       handler  (val) {
