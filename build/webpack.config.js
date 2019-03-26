@@ -3,13 +3,13 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: {
-        main: './src/canvasMergeVideo.js'
+        main: './src/seamlessCanvasPlayer.js'
     },
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'canvasMergeVideo.js',
-        library: 'canvasMergeVideo',
+        filename: 'seamlessCanvasPlayer.js',
+        library: 'seamlessCanvasPlayer',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

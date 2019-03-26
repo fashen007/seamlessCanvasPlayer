@@ -1,5 +1,5 @@
 {
-  "name": "canvasmergevideo",
+  "name": "seamlessCanvasPlayer",
   "version": "0.0.5",
   "description": "use canvas merge videos in browser",
   "author": "spademan <646028751@qq.com>",
@@ -13,7 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
-  "main": "dist/canvasMergeVideo.js",
+  "main": "dist/seamlessCanvasPlayer.js",
   "files": [
     "dist",
     "src"
